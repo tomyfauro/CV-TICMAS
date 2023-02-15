@@ -5,7 +5,7 @@
 
 body{
     color: white;
-    background-color: plum;
+    background-color: #1c2446;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -61,5 +61,79 @@ legend, li {
 
 .imagenes {
 
-    margin-top: 25px;
+    margin-top: 15px;
+}
+
+.footer {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 190px;
+    height: 100px;
+    background-color:#191c32
+}
+
+
+
+.footer-content h2{
+    font-size: 1.5em;
+    
+}
+
+
+.social-network {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+    cursor: pointer;
+    color: #fff;
+}
+
+.social-network  .fa-twitter {
+    transition: ease-in .4s;
+    color: #fff;
+    
+
+}
+
+.social-network  .fa-instagram {
+    transition: ease-in .4s;
+    color: #fff;
+    
+
+}
+
+
+.social-network  .fa-linkedin {
+    transition: ease-in .4s;
+    color: #fff;
+    
+
+}
+
+
+
+.social-network  .fa-twitter:hover {
+    transition: ease-in .4s;
+    color:#49d5ff;
+    
+
+}
+
+.social-network  .fa-instagram:hover {
+    transition: ease-in .4s;
+    color:#49d5ff;
+    
+
+}
+
+.social-network  .fa-linkedin:hover {
+    transition: ease-in .4s;
+    color:#49d5ff;
+    
+
 }
